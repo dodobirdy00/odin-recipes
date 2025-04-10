@@ -1,4 +1,206 @@
-.heading{
-    color: rgb(24, 73, 24);
-    background-color: rgb(139, 206, 72);
+/* homepage css */
+
+
+
+.nav-bar{
+    border: 5px solid rgb(41, 43, 8);
+    padding-left: 10px;
+    display: flex;
+    gap: 30px;
+    background-color: rgb(74, 212, 205);
+}
+
+.nav-item{
+    list-style: none;
+    padding-top: 10px;
+}
+
+.nav-item a{
+    color: rgb(17, 73, 50);
+}
+
+
+
+
+.main-page{
+    display: flex;
+    background-color: rgb(62, 229, 255);
+    flex-direction: column;
+    justify-content: center;
+    height: 100vh;
+}
+
+.main-page > *{
+    flex-basis: 200px;
+}
+
+
+.red{
+    background-color: lightcoral;
+    border: 5px solid rgb(247, 245, 171);
+}
+.green{
+    background-color: green;
+    border: 5px solid rgb(247, 245, 171);
+}
+.blue{
+    background-color: blue;
+    border: 5px solid rgb(247, 245, 171);
+}
+
+
+/* reservation page css */
+
+.reservation-body{
+    background-color: rgb(57, 186, 186);
+}
+
+.pricing-container{
+    min-height: 70vh;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+   
+}
+
+.pricing-table{
+    width: 350px;
+    height: 400px;
+    background-color: rgb(126, 96, 79);
+    border-radius: 10%;
+
+    
+}
+
+.pricing-name{
+    font-size: xx-large;
+    background-color: rgb(36, 6, 6);
+    padding: 15px;
+    margin-top: 45px;
+    margin-bottom: 25px;
+}
+.price{
+    font-size: xx-large;
+}
+
+.pricing-name, .price, .button{
+    color: aliceblue;
+    text-align: center;
+}
+
+ul{
+    padding-left:55px ;
+}
+
+.features{
+    font-size: large;
+}
+
+.button{
+    background-color: rgb(65, 187, 47);
+    margin: 40px 70px 0px 70px;
+    padding: 5px;
+    border-radius: 3%;
+    
+}
+.return-to-homepage{
+    margin-top: 20px;
+    text-align: center;
+  
+}
+
+@media (max-width:1100px){
+    .pricing-container{
+        display: flex;
+        flex-direction: column;
+    }
+}
+
+
+
+/* Common selectors for grilled-chicken and roasted-potato */
+body{
+    padding: 0;
+    margin: 0;
+    background-color: rgb(246, 206, 206);
+}
+p{
+    margin: 0;
+    font-weight: 700;
+    font-size: xx-large;
+}
+
+h1{
+    color:rgb(154, 122, 81);
+    background-color: rgb(18, 59, 72);
+    padding-left: 10px;
+    margin: 0;
+    border: 5px solid rgb(36, 34, 31);
+}
+
+img{
+    border: 5px solid goldenrod;
+    margin-top: 10px;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+.image-container{
+    display: flex;
+  
+}
+.image-container > .contents-table{
+    align-self:flex-start ;
+}
+
+.contents-table{
+    background-color: azure;
+    border: 1px solid ;
+    display: inline-block;
+    padding-right: 20px;
+
+
+}
+
+.contents-table > p{
+    font-size: x-large;
+    margin-left: 35px;
+
+}
+
+.description-box{
+    background-color: rgb(246, 206, 206);
+    padding: 10px;
+}
+
+.ingredients-container{
+    background-color: rgb(178, 213, 244);
+    padding: 10px;
+}
+
+.image-background{
+    background-color: rgb(178, 213, 244);
+}
+
+h3{
+    margin: 0;
+
+}
+.steps-container{
+    background-color: rgb(200, 200, 255);
+    padding-top: 20px;
+}
+
+
+
+.steps-list{
+    margin-bottom: 0;
+    padding-bottom: 30px;
+
+}
+
+.footer{
+    background-color: rgb(161, 236, 104);
+    text-align: end;
+    padding-right: 20px;
 }
